@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Title="השלמת פריטי הרשמה"
+             NavigationPage.HasBackButton="{Binding HasBackButton}"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ContentViews="clr-namespace:Swap.ContentViews"
+             x:Class="Swap.Views.CompleteFBSignUpPage"
+             x:Name="page">
+    <StackLayout BackgroundColor="#f3f3f3">
+        <StackLayout>
+            <ContentViews:ImageEntryContentView Title="מספר טלפון"
+                                           Placeholder="הכנס מספר טלפון"
+                                           Text="{Binding BindingContext.PhoneNumber, Source={x:Reference page}, Mode=TwoWay}"
+                                           ImageSource="ic_phone_number.png"
+                                           IsRequired="True"
+                                           Keyboard="Numeric" />
+            <ContentViews:ImageEntryContentView Title="עיר"
+                                           Placeholder="הכנס עיר"
+                                           Text="{Binding BindingContext.City, Source={x:Reference page}, Mode=TwoWay}"
+                                           ImageSource="ic_city.png"
+                                           IsRequired="True" />
+            <ContentViews:ImageEntryContentView Title="שכונה"
+                                           Placeholder="הכנס שכונה"
+                                           Text="{Binding BindingContext.Neighborhood, Source={x:Reference page}, Mode=TwoWay}"
+                                                ImageSource="ic_street.png" />
+            <Label Text="{Binding Message}"
+                   TextColor="OrangeRed"
+                   FontSize="16"
+                   FontAttributes="Bold" />
+            <ListView x:Name="piker"/>
+        </StackLayout>
+        <Button Text="אישור"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="60"
+                WidthRequest="200"
+                FontAttributes="Bold"
+                FontSize="17"
+                TextColor="White"
+                BackgroundColor="OrangeRed"
+                Command="{Binding SignUp}" />
+    </StackLayout>
+</ContentPage>

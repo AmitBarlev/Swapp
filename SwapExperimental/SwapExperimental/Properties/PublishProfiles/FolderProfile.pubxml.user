@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Programming Projects\SwapPublish\API</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Controllers/AboutController.cs">
+      <publishTime>03/02/2019 10:39:25</publishTime>
+    </File>
+    <File Include="Controllers/HomeController.cs">
+      <publishTime>03/24/2019 22:48:42</publishTime>
+    </File>
+    <File Include="Entities/LIbDBContext.cs">
+      <publishTime>03/02/2019 14:23:40</publishTime>
+    </File>
+    <File Include="Entities/LibraryExper.cs">
+      <publishTime>03/02/2019 13:02:38</publishTime>
+    </File>
+    <File Include="Migrations/20190302123258_InitialCreate.cs">
+      <publishTime>03/02/2019 14:32:58</publishTime>
+    </File>
+    <File Include="Migrations/20190302123258_InitialCreate.Designer.cs">
+      <publishTime>03/02/2019 14:32:58</publishTime>
+    </File>
+    <File Include="Migrations/LIbDBContextModelSnapshot.cs">
+      <publishTime>03/02/2019 14:32:58</publishTime>
+    </File>
+    <File Include="Services/Greeter.cs">
+      <publishTime>03/02/2019 11:36:41</publishTime>
+    </File>
+    <File Include="Services/LibraryData.cs">
+      <publishTime>03/02/2019 13:23:25</publishTime>
+    </File>
+    <File Include="Services/SQLLibsData.cs">
+      <publishTime>03/02/2019 14:23:40</publishTime>
+    </File>
+    <File Include="ViewModels/HomePageViewModel.cs">
+      <publishTime>03/02/2019 11:55:10</publishTime>
+    </File>
+    <File Include="ViewModels/LibraryEditViewModel.cs">
+      <publishTime>03/02/2019 13:23:25</publishTime>
+    </File>
+    <File Include="Views/Home/Create.cshtml">
+      <publishTime>03/02/2019 14:43:51</publishTime>
+    </File>
+    <File Include="Views/Home/Details.cshtml">
+      <publishTime>03/02/2019 13:23:25</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>03/02/2019 12:50:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
