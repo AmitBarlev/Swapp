@@ -10,7 +10,7 @@
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.WAKE_LOCK" />
 	<application android:label="Swap.Android" android:usesCleartextTraffic="true" android:hardwareAccelerated="true">
-		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCX0L5WRs1mSOYjh19CHelLA6btiPqTDdc" />
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="" />
 		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
 		<provider android:name="android.support.v4.content.FileProvider" android:authorities="${applicationId}.fileprovider" android:exported="false" android:grantUriPermissions="true">
 			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
